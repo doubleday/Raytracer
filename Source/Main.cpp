@@ -100,6 +100,7 @@ private:
 // This macro generates the main() routine that launches the app.
 #if RUN_UNITTESTS
 #define CATCH_CONFIG_MAIN
+#include "catch.hpp"
 #else
 START_JUCE_APPLICATION (RaytracerApplication)
 #endif
